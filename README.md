@@ -26,4 +26,4 @@ There are a few useful callable functions inside the TroPi class:
 * `SetSingleColour(ledNumber, red, green, blue)` - Set a given LED to a colour eg. `SetSingleColour(2, 1.0, 0.0, 0.0)` would set the middle LED to red.
 
 ## Further Help
-Head over to the [PiBorg Forum](https://forum.piborg.org/forum) and ask for questions if you need further help.
+Head over to the [PiBorg Forum](http://forum.piborg.org/forum) and ask for questions if you need further help.
