@@ -21,7 +21,7 @@ There are three examples available in this repository:
 
 There are a few useful callable functions inside the TroPi class:
 
-* `SetEachColour(colours)` - Provide a list of colours to set each light, see [fuzz.py](https://github.com/piborg/tropi/fuzz.py) for an example of usage.
+* `SetEachColour(colours)` - Provide a list of colours to set each light, see [fuzz.py](https://github.com/piborg/TroPi/blob/master/fuzz.py) for an example of usage.
 * `SetAllColours(red, green, blue)` - Set all LEDs to the given RGB value eg. `SetAllColours(1.0, 0.0, 0.0)` would set all the lights to red.
 * `SetSingleColour(ledNumber, red, green, blue)` - Set a given LED to a colour eg. `SetSingleColour(2, 1.0, 0.0, 0.0)` would set the middle LED to red.
 
