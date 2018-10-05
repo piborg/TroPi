@@ -15,6 +15,7 @@ Follow the [Getting Started Guide](https://www.piborg.org/blog/tropi-getting-sta
 There are three examples available in this repository:
 * `cheerlights.py` - Runs [Cheerlights](https://cheerlights.com/) on the TroPi. Try running this script using `python cheerlights.py` then Tweet using the #Cheerlights hash tag and a colour eg. Tweeting "#Cheerlights Red" will change the TroPi lights to Red.
 * `colourwave.py` - Smoothly changes colours of the TroPi LEDs through the rainbow of colours in a wave from the first LED to the last.
+* `fuzz.py` - Flashing lights as if you've been caught by the Fuzz.
 * `whichlight.py` - Asks the user "which light would you like to turn on?". Give a number from 0 to 4 and watch the light come on.
 
 ## API
