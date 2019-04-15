@@ -7,6 +7,7 @@ red = (1.0, 0.0, 0.0)
 blue = (0.0, 0.0, 1.0)
 
 try:
+    print ('Running fuzz demo. Press CTRL+C to finish')
     while True:
         tropi.SetEachColour((red,blue,red,blue,red))
         time.sleep(1)

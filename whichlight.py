@@ -4,6 +4,7 @@ from tropi import TroPi
 TroPi = TroPi()
 
 try:
+    print ('Running which light demo. Press CTRL+C to finish.')
     while True:
         try:
             # Try to get a light value for turning on

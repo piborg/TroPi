@@ -33,6 +33,7 @@ tropi = TroPi()
 tropi.SetAllColours(0.0, 0.0, 0.0)
 try:
     #Try to run this loop until CTRL+C...
+    print('Running Cheerlights demo. Press CTRL+C to finish.')
     while True:
         # Get the cheerlights status from the cheerlights URL.
         cheerlights = urllib.urlopen(cheerlightsUrl)

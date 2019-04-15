@@ -18,7 +18,7 @@ troPi = TroPi()
 troPi.SetAllColours(0,0,0)
 
 # Loop over the sequence until the user presses CTRL+C
-print ('Press CTRL+C to finish')
+print ('Running colourwave demo. Press CTRL+C to finish')
 bufferSize = ledCount * seperation
 bufferedColours = [[0,0,0] for i in range(bufferSize)]
 try:
