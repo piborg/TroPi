@@ -26,5 +26,22 @@ There are a few useful callable functions inside the TroPi class:
 * `SetAllColours(red, green, blue)` - Set all LEDs to the given RGB value eg. `SetAllColours(1.0, 0.0, 0.0)` would set all the lights to red.
 * `SetSingleColour(ledNumber, red, green, blue)` - Set a given LED to a colour eg. `SetSingleColour(2, 1.0, 0.0, 0.0)` would set the middle LED to red.
 
+## Raspberry Pi 5
+The `RPi.GPIO` library used in `tropi.py` is not compatible with the Raspberry Pi 5, but there is a drop-in replacement library available.
+
+You can install the replacement using these commands:
+```bash
+sudo apt-get update
+sudo apt remove python3-rpi.gpio
+sudo apt install python3-rpi-lgpio
+```
+
+If the last command fails with `E: Unable to locate package python3-rpi-lgpio` you can install the module using this alternative:
+```bash
+pip3 install rpi-lgpio
+```
+
+For more details see [rpi-lgpio - Installation](https://rpi-lgpio.readthedocs.io/en/release-0.4/install.html).
+
 ## Further Help
 Head over to the [PiBorg Forum](http://forum.piborg.org/forum) and ask for questions if you need further help.
